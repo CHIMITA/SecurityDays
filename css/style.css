@@ -8,6 +8,11 @@
   src: url(../font/nelnalizzychae2020.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'human';
+  src: url(../font/Human.otf) format('truetype');
+}
+
 body {
   font-family: 'nelna';
   font-size: px;
@@ -84,6 +89,11 @@ h2 {
   margin-bottom: 10px;
 }
 
+.card-subtitle {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
 .person-container {
   display: flex;
   justify-content: center;
@@ -92,9 +102,28 @@ h2 {
   margin-top: 50px;
 }
 
-.person-info {
+.person {
   margin-top: 30px;
+}
+
+.person-info {
+  font-family: 'Human';
+  font-size: 28px;
+  margin-top: 20px;
   text-align: center;
+}
+
+.person-question {
+  font-family: 'Human';
+  font-size: 26px;
+  text-align: left;
+  background-color: #f1e647d8;
+}
+
+.person-anwser {
+  font-family: 'Human';
+  text-align: left;
+
 }
 
 @media screen and (max-width: 768px) {
