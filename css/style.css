@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'geakbil';
+  src: url(../font/GeekbleMalang2OTF.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'nelna';
+  src: url(../font/nelnalizzychae2020.ttf) format('truetype');
+}
+
+body {
+  font-family: 'nelna';
+  font-size: px;
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #d07684;
+  padding: 10px;
+  font-family: 'nelna';
+  font-size: 26px;
+  text-align: center;
+  color: #fff;
+}
+
+p {
+  font-family: 'nelna';
+  font-size: 23px;
+
+}
+
+h2 {
+  font-family: 'nelna';
+  font-size: 30px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card {
+  width: 300px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+  background-color: #fff;
+  text-decoration: none;
+  color: #333;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.card-image:hover img {
+  transform: scale(1.1);
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.person-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.person-info {
+  margin-top: 30px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
