@@ -23,7 +23,7 @@ body {
 }
 
 header {
-  background-color: #B22222;
+  background-color: #d07684;
   padding: 20px;
   font-family: 'nelna';
   font-size: 28px;
@@ -137,7 +137,14 @@ h2 {
   position: relative;
 }
 
-
+.person-answer::before {
+  content: '"';
+  position: absolute;
+  left: -20px;
+  top: 0;
+  font-size: 30px;
+  color: #B22222;
+}
 
 @media screen and (max-width: 768px) {
   .card {
