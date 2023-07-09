@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'human';
-  src: url(font/Human.otf) format('truetype');
+  src: url(../font/Human.otf) format('truetype');
 }
 
 :root {
@@ -701,19 +701,19 @@ body .pages_page:nth-of-type(odd) .pages_page__inner {
 body .pages_page:nth-of-type(1) .pages_page__inner {
   background-size: 900px !important;
   background-position: center !important;
-  background: url("img/person_bg_1.png");
+  background: url("../img/person_bg_1.png");
 }
 body .pages_page:nth-of-type(2) .pages_page__inner {
   background-size: 900px !important;
   background-position: center !important;
-  background: url("img/background.png");
+  background: url("../img/background.png");
 }
 body .pages_page:nth-of-type(2) .pages_page__inner h4 {
   color: black;
   z-index: 3;
 }
 body .pages_page:nth-of-type(3) .pages_page__inner {
-  background: url("img/background.png");
+  background: url("../img/background.png");
   background-position: 0 0;
 }
 body .pages_page:nth-of-type(3) .pages_page__inner .content {
@@ -725,7 +725,7 @@ body .pages_page:nth-of-type(3) .pages_page__inner .content {
   position: absolute;
 }
 body .pages_page:nth-of-type(6) .pages_page__inner {
-  background: #4a5f5c;
+  background: url("../img/background.png");
 }
 body .pages_page:nth-of-type(4) .pages_page__inner .content {
   -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 100%);
@@ -741,7 +741,7 @@ body .pages_page:nth-of-type(4) .pages_page__inner .bg {
   height: 100%;
   width: 200%;
   position: relative;
-  background: url("img/background.png");
+  background: url("../img/background.png");
   background-size: 1400px !important;
   left: -100%;
 }
@@ -751,7 +751,7 @@ body .pages_page:nth-of-type(5) .pages_page__inner {
   background-position: center !important;
 }
 body .pages_page:nth-of-type(7) .pages_page__inner {
-  background: url("http://ruthrose.co.uk/wp-content/uploads/2018/04/lingerie-fashion-photographer-photography-shoot-fitness-swimwear-shoot180317_POCKET9661-f1.jpg");
+  background: url("../img/background.png");
   background-position: 0 0;
   background-size: 1400px !important;
 }
@@ -772,16 +772,22 @@ body .pages_page:nth-of-type(7) .pages_page__inner .content_section p {
   font-size: 13px;
 }
 body .pages_page:nth-of-type(7) .pages_page__inner .content_section:nth-of-type(1) {
-  top: 100px;
+  top: 70px;
   width: 200px;
 }
 body .pages_page:nth-of-type(7) .pages_page__inner .content_section:nth-of-type(2) {
-  top: 274px;
+  top: 220px;
   width: 300px;
 }
 body .pages_page:nth-of-type(7) .pages_page__inner .content_section:nth-of-type(3) {
-  top: 410px;
-  width: 260px;
+  top: 380px;
+  width: 280px;
+}
+body .pages_page:nth-of-type(7) .pages_page__inner .content_section:nth-of-type(4) {
+  top: 370px;
+  left: 120%;
+  width: 280px;
+  right: 10px;
 }
 body .pages_page:nth-of-type(8) .pages_page__inner {
   background: url("http://ruthrose.co.uk/wp-content/uploads/2018/04/lingerie-fashion-photographer-photography-shoot-fitness-swimwear-shoot180317_POCKET9661-f1.jpg");
@@ -801,12 +807,12 @@ body .pages_page:nth-of-type(8) .pages_page__inner .bg {
   height: 100%;
   width: 200%;
   position: relative;
-  background: url("img/background.png");
+  background: url("../img/background.png");
   background-size: 1400px !important;
   left: -100%;
 }
 body .pages_page__inner {
-  background: url("img/background.png");
+  background: url("../img/background.png");
   background-size: 1400px !important;
   height: 100%;
   transform-style: preserve-3d;
@@ -823,10 +829,10 @@ body .pages_page__inner .control {
   left: 30px;
   cursor: pointer;
   transition: all 0.23s;
-  box-shadow: 0 0 0 0px #bf9726;
+  box-shadow: 0 0 0 0px #a15252;
 }
 body .pages_page__inner .control:hover {
-  box-shadow: 0 0 0 10px rgba(191, 151, 38, 0.3);
+  box-shadow: 0 0 0 10px rgba(191, 38, 38, 0.3);
   left: 34px;
 }
 body .pages_page__inner .control:hover:before {
@@ -960,12 +966,11 @@ body .pages_page__inner .content_center h4 {
   line-height: 38px;
   border-top: 1px solid;
   border-bottom: 1px solid;
-  padding: 10px 0px 29px;
+  padding: 10px 0px 10px;
 }
 body .pages_page__inner .content_center h6 {
-  font-size: 13px;
+  font-size: 19px;
   margin: 0;
-  opacity: 0.5;
 }
 body .pages_page__inner .content_center h6:nth-of-type(2) {
   font-size: 16px;
