@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'human';
-  src: url(../font/Human.otf) format('truetype');
+  src: url('../font/Human.otf') format('truetype');
 }
 
 :root {
@@ -773,7 +773,7 @@ body .pages_page:nth-of-type(7) .pages_page__inner .content_section p {
 }
 body .pages_page:nth-of-type(7) .pages_page__inner .content_section:nth-of-type(1) {
   top: 70px;
-  width: 200px;
+  width: 400px;
 }
 body .pages_page:nth-of-type(7) .pages_page__inner .content_section:nth-of-type(2) {
   top: 220px;
@@ -784,6 +784,12 @@ body .pages_page:nth-of-type(7) .pages_page__inner .content_section:nth-of-type(
   width: 280px;
 }
 body .pages_page:nth-of-type(7) .pages_page__inner .content_section:nth-of-type(4) {
+  top: 370px;
+  left: 120%;
+  width: 280px;
+  right: 10px;
+}
+body .pages_page:nth-of-type(7) .pages_page__inner .content_section:nth-of-type(5) {
   top: 370px;
   left: 120%;
   width: 280px;
