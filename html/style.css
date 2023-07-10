@@ -760,11 +760,11 @@ body .pages_page:nth-of-type(7) .pages_page__inner .content_section {
 }
 body .pages_page:nth-of-type(7) .pages_page__inner .content_section h2 {
   margin: 0;
+  color: var(--red);
 }
-body .pages_page:nth-of-type(7) .pages_page__inner .content_section h2,
 body .pages_page:nth-of-type(7) .pages_page__inner .content_section p {
   margin: 0;
-  color: var(--red);
+  color: #333333;
 }
 body .pages_page:nth-of-type(7) .pages_page__inner .content_section p {
   line-height: 18px;
@@ -790,10 +790,23 @@ body .pages_page:nth-of-type(7) .pages_page__inner .content_section:nth-of-type(
   right: 10px;
 }
 body .pages_page:nth-of-type(7) .pages_page__inner .content_section:nth-of-type(5) {
-  top: 370px;
-  left: 120%;
-  width: 280px;
+  top: 5%;
+  left: 110%;
+  width: 320px;
   right: 10px;
+}
+body .pages_page:nth-of-type(7) .pages_page__inner .content_section:nth-of-type(6) {
+  top: 45%;
+  left: 130%;
+  width: 320px;
+  right: 10px;
+}
+body .pages_page:nth-of-type(7) .pages_page__inner .content_section:nth-of-type(7) {
+  top: 72%;
+  left: 110%;
+  width: 350px;
+  right: 10px;
+  font-size: 11px;
 }
 body .pages_page:nth-of-type(8) .pages_page__inner {
   background: url("http://ruthrose.co.uk/wp-content/uploads/2018/04/lingerie-fashion-photographer-photography-shoot-fitness-swimwear-shoot180317_POCKET9661-f1.jpg");
@@ -935,9 +948,8 @@ body .pages_page__inner .content_centerimage img {
 body .pages_page__inner .content_center {
   position: absolute;
   text-align: center;
-  width: 260px;
-  right: -130px;
-  padding-bottom: 10px;
+  width: 550px;
+  right: -275px;
   top: 50%;
   transform: translateY(-50%);
   -webkit-clip-path: polygon(0 0, 50% 0, 50% 100%, 0% 100%);
@@ -958,7 +970,7 @@ body .pages_page__inner .content_center h1 {
 }
 body .pages_page__inner .content_center h5,
 body .pages_page__inner .content_center h6 {
-  color: var(--red);
+  color: #333333;
   font-size: 38px;
   font-weight: normal;
   margin: 0;
@@ -970,12 +982,10 @@ body .pages_page__inner .content_center h4 {
   font-weight: normal;
   margin: 0;
   line-height: 38px;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
   padding: 10px 0px 10px;
 }
 body .pages_page__inner .content_center h6 {
-  font-size: 19px;
+  font-size: 12px;
   margin: 0;
 }
 body .pages_page__inner .content_center h6:nth-of-type(2) {
@@ -984,7 +994,7 @@ body .pages_page__inner .content_center h6:nth-of-type(2) {
 }
 body .pages_page__inner .content_center.right {
   right: auto;
-  left: -130px;
+  left: -275px;
   -webkit-clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
   clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
 }
@@ -1040,7 +1050,7 @@ body .pages_page__inner .content_quote h5 span.quo:nth-of-type(1) i {
 }
 body .pages_page__inner .content_offset {
   position: absolute;
-  width: 280px;
+  width: 30%;
   top: 260px;
   left: 50%;
   transform: translateX(-350px);
@@ -1060,7 +1070,7 @@ body .pages_page__inner .content_offset h2 {
 body .pages_page__inner .content_offset p {
   font-size: 13px;
   line-height: 20px;
-  color: var(--red);
+  color: #333333;
 }
 body .pages_page__inner .content h1 {
   font-size: 53px;
